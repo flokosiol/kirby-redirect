@@ -1,0 +1,8 @@
+{
+  "name": "redirect",
+  "description": "Editable redirects for Kirby CMS",
+  "author": "Flo Kosiol <git@flokosiol.de>",
+  "version": "0.1",
+  "type": "kirby-plugin",
+  "license": "MIT"
+}
