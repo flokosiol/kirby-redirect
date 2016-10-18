@@ -7,7 +7,7 @@ fields:
     type:  text
   help:
     type: info
-    help: Leave the following fields empty to redirect to the first visible children (if exists) or to the frontpage.
+    help: Leave the following fields empty to redirect to the first visible child (if exists) or to the frontpage.
   redirect:
     label: Redirect to page
     type: page

@@ -3,7 +3,7 @@
 ![Version](https://img.shields.io/badge/version-0.2-green.svg) ![Kirby](https://img.shields.io/badge/Kirby-2.3+-red.svg)
 
 
-With this plugin for [Kirby 2](http://getkirby.com) editors can create pages which redirect to its first child, any other page or an external url.
+With this plugin for [Kirby 2](http://getkirby.com) editors can create pages which redirect to its first visible child, any other page or an external url.
 
 ## Requirements
 
