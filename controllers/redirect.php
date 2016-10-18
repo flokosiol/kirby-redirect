@@ -2,9 +2,13 @@
 
 return function($site, $pages, $page) {
 
-  if (!$page->redirect()->empty()) {
-    // if 'redirect to page' is set, go for it
+  if (!$page->redirect()->empty() && page($page->redirect()->value())) {
+    // if 'redirect to page' is set (and exists), go for it
     $redirect = $page->redirect()->url();
+  }
+  elseif (!$page->external()->empty()) {
+    // if 'external url' is set, go for it
+    $redirect = $page->external()->value();
   }
   elseif ($page->children()->visible()->count()) {
     // else if page has visible children, redirect to the first one

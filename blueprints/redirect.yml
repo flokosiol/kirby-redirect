@@ -1,5 +1,3 @@
-<?php if(!defined('KIRBY')) exit ?>
-
 title: Redirect
 pages: true
 files: false
@@ -7,6 +5,14 @@ fields:
   title:
     label: Title
     type:  text
+  help:
+    type: info
+    help: Leave the following fields empty to redirect to the first visible children (if exists) or to the frontpage.
   redirect:
     label: Redirect to page
-    type:  page
+    type: page
+    help: If set, the user will be redirected to the page (if exists)
+  external:
+    label: Redirect to external URL
+    type:  url
+    help: Will be ignored, if 'Redirect to page' is set and valid
