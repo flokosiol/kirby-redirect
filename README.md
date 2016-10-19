@@ -23,19 +23,17 @@ There's a `package.json` file included if you want to use the [Kirby CLI](https:
 
 If you like, you can copy and paste the blurprint from `site/plugin/redirect/blueprints/redirect.yml` to `site/blueprints/redirect.yml` to adjust the text or add some translations. 
 
-**But please make sure not to change the keys of the fields**
+**But please make sure not to change the keys of the fields.**
 
 ## Changelog
 
 ### 0.2
 
 + check if page exists before redirecting
-+ add possibility to redirect to externall url
++ add possibility to redirect to external url
 + some more documentation (and changelog)
 
 ### 0.1
 
-+ check if page exists before redirecting
-+ add possibility to redirect to externall url
-+ some more documentation
++ initial version
 
