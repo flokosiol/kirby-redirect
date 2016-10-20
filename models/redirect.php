@@ -17,4 +17,8 @@ class RedirectPage extends Page {
     return $site->homepage()->url();
   }
 
+  public function isExternal() {
+      return $this->external()->isNotEmpty();
+  }
+
 }
