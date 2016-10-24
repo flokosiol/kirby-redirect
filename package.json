@@ -1,7 +1,18 @@
 {
   "name": "redirect",
   "description": "Editable redirects for Kirby CMS",
-  "author": "Flo Kosiol <git@flokosiol.de>",
+  "authors": [
+      {
+          "name": "Flo Kosiol",
+          "email": "git@flokosiol.de",
+          "homepage": "http://flokosiol.de"
+      },
+      {
+        "name": "Benedict Zinke",
+        "email": "bz@presentprogressive.de",
+        "homepage": "http://presentprogressive.de"
+      }
+  ],
   "version": "0.2",
   "type": "kirby-plugin",
   "license": "MIT"
