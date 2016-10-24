@@ -2,9 +2,9 @@
 
 return function($site, $pages, $page) {
 
-  if ($page->redirect()->isNotEmpty() && ($p = page($this->redirect()->value()))) {
+  if ($page->redirect()->isNotEmpty() && ($p = page($page->redirect()->value()))) {
     // if 'redirect to page' is set (and exists), go for it
-    $redirect = $p->redirect()->url();
+    $redirect = $p->url();
   }
   elseif ($page->external()->isNotEmpty()) {
     // if 'external url' is set, go for it
