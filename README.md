@@ -31,6 +31,7 @@ If you like, you can copy and paste the blurprint from `site/plugin/redirect/blu
 
 + check if page exists before redirecting
 + add possibility to redirect to external url
++ add page model and `isExternal()` page method
 + some more documentation (and changelog)
 
 ### 0.1
