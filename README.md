@@ -21,7 +21,7 @@ There's a `package.json` file included if you want to use the [Kirby CLI](https:
 
 ## Customization
 
-If you like, you can copy and paste the blurprint from `site/plugin/redirect/blueprints/redirect.yml` to `site/blueprints/redirect.yml` to adjust the text or add some translations. 
+If you like, you can copy and paste the blueprint from `site/plugin/redirect/blueprints/redirect.yml` to `site/blueprints/redirect.yml` to adjust the text or add some translations. 
 
 **But please make sure not to change the keys of the fields.**
 
