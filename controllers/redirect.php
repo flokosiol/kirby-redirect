@@ -6,7 +6,7 @@ return function($site, $pages, $page) {
     // if 'redirect to page' is set (and exists), go for it
     $redirect = $p->redirect()->url();
   }
-  elseif (!$page->external()->empty()) {
+  elseif ($page->external()->isNotEmpty()) {
     // if 'external url' is set, go for it
     $redirect = $page->external()->value();
   }
