@@ -38,3 +38,8 @@ If you like, you can copy and paste the blurprint from `site/plugin/redirect/blu
 
 + initial version
 
+## Authors
+
++ [Flo Kosiol](https://github.com/flokosiol)
++ [Benedict Zinke](https://github.com/bezin)
+
