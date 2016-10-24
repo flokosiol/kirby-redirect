@@ -14,11 +14,15 @@ class RedirectPage extends Page {
       return $this->children()->visible()->first()->url();
     }
     // fallback: redirect to homepage
-    return $site->homepage()->url();
+    return site()->homepage()->url();
   }
 
   public function isExternal() {
+    if ($this->redirect()->isEmpty() || (!page($this->redirect()->value()))) {
       return $this->external()->isNotEmpty();
+    }
+
+    return false;
   }
 
 }
