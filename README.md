@@ -1,6 +1,6 @@
 # Kirby Redirect
 
-![Version](https://img.shields.io/badge/version-0.2-green.svg) ![Kirby](https://img.shields.io/badge/Kirby-2.3+-red.svg)
+![Version](https://img.shields.io/badge/version-1.0-green.svg) ![Kirby](https://img.shields.io/badge/Kirby-2.3+-red.svg)
 
 
 With this plugin for [Kirby 2](http://getkirby.com) editors can create pages which redirect to its first visible child, any other page or an external url.
@@ -27,12 +27,14 @@ If you like, you can copy and paste the blurprint from `site/plugin/redirect/blu
 
 ## Changelog
 
+### 1.0
++ add page model and `isExternal()` page method
++ some more documentation (and changelog)
+
 ### 0.2
 
 + check if page exists before redirecting
 + add possibility to redirect to external url
-+ add page model and `isExternal()` page method
-+ some more documentation (and changelog)
 
 ### 0.1
 

@@ -13,7 +13,7 @@
         "homepage": "http://presentprogressive.de"
       }
   ],
-  "version": "0.2",
+  "version": "3.0",
   "type": "kirby-plugin",
   "license": "MIT"
 }
